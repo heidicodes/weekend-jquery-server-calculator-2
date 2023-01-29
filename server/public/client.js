@@ -64,6 +64,5 @@ function render() {
         `);
     }
     // clearing form inputs by setting new value to empty string
-    
-    $('.numInput').val('');
+    // $('.numInput').val('');
 };
