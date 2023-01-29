@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery.js"></script>
+    <script src="client.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Server Side Calculator</h1>
+    <form>
+        <input id="numInput1" class="numInput" type="number" value="Number">
+        <select class="operator">
+            <option id="addBtn" class="calc-Btn" type="button" value="+">+</option>
+            <option id="minusBtn" class="calc-Btn" type="button" value="-">-</option>
+            <option id="multBtn" class="calc-Btn" type="button" value="*">*</option>
+            <option id="divisionBtn" class="calc-Btn" type="button" value="/">/</option>
+        </select>
+        <input id="numInput2" class="numInput" type="number" value="Number">
+        <input id="equalInput" type="submit" value="=">
+
+        <input id="clearBtn" type="button" value="C">
+    </form>
+    <h3>Answer history:</h3>
+    <div id="historyParent">
+        <ul></ul> <!-- display result here-->
+    </div>
+</body>
+</html>
